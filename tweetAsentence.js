@@ -151,10 +151,11 @@ function tweetFromAccount(account, sessionAttributes, context, cardTitle, reprom
 
     var twit = require('twitter'),
     twitter = new twit({
-        consumer_key:'KMMOwF5pzFxHKT7UJMOwx9aFs',
-        consumer_secret:'alQpkGKLYl9rIojBQWuEthxIrSmYvabN1nU1TA8kl7shYqxDRT',
-        access_token_key:'22864260-Z5T0E0BPXU2d71HXf6BRhek1ZNcYP5c6lbj3AWfuI',
-        access_token_secret:'m3Qit5XWlUkWv3HydHxHfb8MjSZgUDP1EWaxeBer9KeRP'
+        //Update the twitter security keys and tokens before calling. 
+        consumer_key:'',
+        consumer_secret:'',
+        access_token_key:'',
+        access_token_secret:''
     });
     //var count = 0;
     var util = require('util');
